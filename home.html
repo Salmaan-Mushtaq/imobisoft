@@ -52,22 +52,96 @@
               </li>
 
               <li class="nav-item dropdown p-2">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Services
-                </a>
+                <a class="nav-link services"> Services </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
+                  <div class="main-container py-3">
+                    <div class="row">
+                      <div class="col-9">
+                        <h3 class="dropdown-menu-heading">SERVICES</h3>
+                        <div class="row pt-3">
+                          <div class="col dropdown-menu-content">
+                            <a
+                              href="https://www.imobisoft.co.uk/services/bespoke-business-applications/"
+                            >
+                              <h4 class="dropdown-menu-title">
+                                Bespoke Business Applications
+                              </h4>
+                              Leverage our decade-long expertise in enterprise
+                              software development, API integration, modernising
+                              legacy systems, and consolidating app portfolios.
+                            </a>
+                          </div>
+                          <div class="col dropdown-menu-content">
+                            <a
+                              href="https://www.imobisoft.co.uk/services/mobile-app-development/"
+                            >
+                              <h4 class="dropdown-menu-title">
+                                Mobile App Development
+                              </h4>
+                              We help global brands design and build superior
+                              digital products, enabling seamless user
+                              experiences across all modern platforms and
+                              devices.</a
+                            >
+                          </div>
+                          <div class="col dropdown-menu-content">
+                            <a
+                              href="https://www.imobisoft.co.uk/services/cloud-computing/"
+                            >
+                              <h4 class="dropdown-menu-title">
+                                Cloud-Computing
+                              </h4>
+                              We deliver mission-critical, core business
+                              solutions in the cloud. After assessing your
+                              goals, we’ll work with you to define the right
+                              cloud solution for your business.</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <h3 class="dropdown-menu-heading">OTHER SERVICES</h3>
+                        <ul class="dropdown-other-services pt-3">
+                          <li class="nav-sub-item">
+                            <a
+                              class="nav-sub-link pb-0 ps-0"
+                              href="https://www.imobisoft.co.uk/umbraco/"
+                              >Umbraco Website Development</a
+                            >
+                          </li>
+                          <li class="nav-sub-item">
+                            <a
+                              class="nav-sub-link pb-0 ps-0"
+                              href="https://www.imobisoft.co.uk/services/iot-connectivity/"
+                              >IoT Development Company</a
+                            >
+                          </li>
+
+                          <li class="nav-sub-item">
+                            <a
+                              class="nav-sub-link pb-0 ps-0"
+                              href="https://www.imobisoft.co.uk/services/system-integrations/"
+                              >Systems Integrations</a
+                            >
+                          </li>
+                          <li class="nav-sub-item">
+                            <a
+                              class="nav-sub-link pb-0 ps-0"
+                              href="https://www.imobisoft.co.uk/services/cloud-migration-services/"
+                              >Cloud Migration Services</a
+                            >
+                          </li>
+                          <li class="nav-sub-item">
+                            <a
+                              class="nav-sub-link pb-0 ps-0"
+                              href="https://www.imobisoft.co.uk/services/ai-machine-learning/"
+                              >AI &amp; Machine Learning</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </ul>
               </li>
               <li class="nav-item p-2">
@@ -94,7 +168,7 @@
             <a href="tel:02476158240" class="header-phone-link"
               >024 7615 8240</a
             >
-            <button class="button px-4" type="button">Get In Touch</button>
+            <a class="button" type="button">Get In Touch</a>
           </div>
         </div>
       </nav>
@@ -116,20 +190,20 @@
               Doing smart things with software that make a difference to your
               organisation.
             </p>
-            <a class="button hero_home_button" href="#" target="_self">
-              Contact Us
-            </a>
+            <a class="button" href="#" target="_self"> Contact Us </a>
             <div class="hero_home_content_images d-flex flex-column pt-5">
               <div>
                 <img
                   src="/assets/images/clutch-AI.png"
                   width="140"
                   class="img-fluid"
+                  loading="lazy"
                 />
                 <img
                   src="/assets/images/cluth-umbraco.png"
                   width="140"
                   class="img-fluid"
+                  loading="lazy"
                 />
               </div>
               <div class="py-4">
@@ -137,11 +211,13 @@
                   src="/assets/images/british-assessment.webp"
                   width="140"
                   class="img-fluid"
+                  loading="lazy"
                 />
                 <img
                   src="/assets/images/cyber-essential.webp"
                   width="166"
                   class="img-fluid"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -150,14 +226,17 @@
             <img
               src="/assets/images/hero-home-AI-ML.png"
               class="hero_home_AI_ML position-relative img-fluid"
+              loading="lazy"
             />
             <img
               src="/assets/images/left-home.png"
               class="hero_home_img_left d-none d-lg-block"
+              loading="lazy"
             />
             <img
               src="/assets/images/right-home.png"
               class="hero_home_img_right d-none d-lg-block"
+              loading="lazy"
             />
           </div>
         </div>
@@ -183,8 +262,8 @@
       <!-- Offres Region Start -->
       <section class="offers">
         <h2 class="offer_title">Software Development Services</h2>
-        <div class="row main-container">
-          <div class="col-12 p-0 col-md-6 col-lg-4">
+        <div class="row main-container p-0">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card offer_card">
               <div class="card-body p-0">
                 <svg
@@ -466,7 +545,7 @@
                     </g>
                   </g>
                 </svg>
-                <p class="offer_tabs-inner-title">
+                <p class="offer_tabs-inner-title pt-1">
                   Custom Software Development
                 </p>
                 <p class="offer__tabs-inner-text">
@@ -1604,5 +1683,6 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+    <script src="/js/main.js" defer></script>
   </body>
 </html>
