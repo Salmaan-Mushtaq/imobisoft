@@ -40,6 +40,7 @@ h2 {
   color: #0898ff;
 }
 a {
+  color:black;
   text-decoration: none;
 }
 .main-container {
@@ -249,6 +250,55 @@ a {
 
 /* Offer Css End */
 
+/*  casestudies start     */
+.casestudies {
+  background-color:white;
+  padding: 50px 0 100px;
+}
+.casestudies_tit {
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+.casestudies_text {
+  font-size: 20px;
+  color: #898d8f;
+  margin-bottom: 25px;
+}
+
+.casestudies_title {
+  line-height: 1.25;
+  margin-bottom: 15px;
+ 
+ 
+}
+.casestudies_subtitle{
+ 
+    font-weight: 500; 
+    text-transform: uppercase;
+    color: #898d8f;
+    
+}
+
+
+/* .casestudies_button{
+  background-color: red;
+
+} */
+.casestudies_button {
+  font-size: 12px;
+    border-radius: 99px;
+    padding: 7px 25px;
+    text-align: center;
+    background-color: #F3F2F6;
+    border: 1px solid #dcdce0;
+    color: #151D21;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 2.5rem;
+}
+/*casestudies end*/
+
 /* Client CSS Start*/
 
 .clients {
@@ -328,6 +378,97 @@ option {
   width: 143.417px;
 }
 /* Project Help CSS End*/
+
+/*About us start*/
+.hero-about {
+  background:#fff9f2;
+  padding-top: 140px;
+  padding-bottom: 150px;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 110%;
+}
+
+.culture{
+  background-color: white;
+  padding: 50px 0 100px;
+}
+
+
+.banner{
+    
+  background: linear-gradient(90deg, #000096 0%, #000096 70%, #0578fb 100%);
+}
+.banner p{
+  font-weight: 700;
+}
+
+.button{
+  background-color: white;
+  color:#000096;
+  font-size: 16px;
+  font-weight: 400;
+
+ 
+  padding: 7px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+}
+.button:hover{
+  background-color: #000096;
+  color:#fff;
+ 
+}
+
+.cards img{
+  object-fit: cover;
+  border-radius:10px;
+}
+.cards .card{
+  border:none;
+}
+.links{
+text-decoration: none;
+color:black;
+}
+/* .links img:hover{
+  transform: translateX(40px);
+  transition: transform 0.3s ease;
+
+
+} */
+links:hover {
+  transform: translateX(10px); 
+  transition: transform 0.3s ease; 
+}
+
+.links:hover img {
+  transform: translateX(10px); 
+  transition: transform 0.3s ease; 
+}
+.how-section1{
+  margin-top:-15%;
+  padding: 10%;
+}
+
+.how-section1 h5{
+  color: black;
+  font-weight: bold;
+  
+}
+
+.how-section1 .row
+{
+  margin-top: 10%;
+}
+.how-img 
+{
+  text-align: center;
+} 
+/*ABOUT END*/
+
 /* Footer CSS Start */
 footer {
   margin-top: auto;
