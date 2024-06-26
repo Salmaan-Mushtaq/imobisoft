@@ -283,6 +283,11 @@ a {
   background-color: #f8f8f8;
   padding: 50px 53px;
 }
+.offer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .offer_title {
   text-align: center;
@@ -298,7 +303,7 @@ a {
   max-width: 370px;
   text-align: center;
   border-radius: 12px;
-  margin: 10px auto;
+  margin: 0 6px 25px;
   padding: 32px 30px;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -308,6 +313,7 @@ a {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 18px;
+  margin-top: 0.5rem;
 }
 
 .offer_card svg {
@@ -325,7 +331,7 @@ a {
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .offer_card:hover svg {
-  transform: translate(-130%, -30%) scale(1.2);
+  transform: translate(-130%, -20%) scale(1.2);
 }
 
 .offer_card:hover svg path[id^="Vector"] {
@@ -399,6 +405,18 @@ a {
   margin: 0 auto;
 }
 /* Client CSS End*/
+
+/* Blog CSS Start */
+.blog {
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+.blog_title {
+  text-align: center;
+  margin-bottom: 44px;
+}
+/* Blog CSS End */
+
 /* Project Help CSS Start*/
 .ask_for_project_help {
   background-color: #f8f8f8;
@@ -471,9 +489,14 @@ option {
 
 .culture {
   background-color: white;
-  padding: 50px 0 100px;
+  padding: 0px 0 100px;
 }
-
+.culture_title {
+  color: #151d21;
+  margin: 10px auto;
+  line-height: 1.5rem;
+  width: 80%;
+}
 .banner {
   background: linear-gradient(90deg, #000096 0%, #000096 70%, #0578fb 100%);
 }
@@ -507,16 +530,6 @@ option {
 .links {
   text-decoration: none;
   color: black;
-}
-/* .links img:hover{
-  transform: translateX(40px);
-  transition: transform 0.3s ease;
-
-
-} */
-links:hover {
-  transform: translateX(10px);
-  transition: transform 0.3s ease;
 }
 
 .links:hover img {
