@@ -345,6 +345,11 @@ a {
   background-color: white;
   padding: 50px 0 100px;
 }
+
+
+
+
+
 .casestudies_tit {
   text-align: center;
   margin-bottom: 44px;
@@ -357,15 +362,19 @@ a {
 }
 
 .casestudies_title {
-  line-height: 1.25;
-  margin-bottom: 15px;
+ 
+  color:black;
+  padding-top: 0;
+
 }
 .casestudies_subtitle {
   font-weight: 500;
   text-transform: uppercase;
   color: #898d8f;
 }
-
+.casestudies_img{
+width:300px;
+}
 /* .casestudies_button{
   background-color: red;
 
@@ -381,6 +390,13 @@ a {
   font-weight: 400;
   display: inline-block;
   margin-bottom: 2.5rem;
+}
+.team_wrapper .work-image {
+  /* padding: 0 14px 20px; */
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 400px; 
+ 
 }
 /*casestudies end*/
 
