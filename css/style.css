@@ -346,10 +346,6 @@ a {
   padding: 50px 0 100px;
 }
 
-
-
-
-
 .casestudies_tit {
   text-align: center;
   margin-bottom: 44px;
@@ -362,18 +358,16 @@ a {
 }
 
 .casestudies_title {
- 
-  color:black;
+  color: black;
   padding-top: 0;
-
 }
 .casestudies_subtitle {
   font-weight: 500;
   text-transform: uppercase;
   color: #898d8f;
 }
-.casestudies_img{
-width:300px;
+.casestudies_img {
+  width: 300px;
 }
 /* .casestudies_button{
   background-color: red;
@@ -395,8 +389,7 @@ width:300px;
   /* padding: 0 14px 20px; */
   cursor: pointer;
   transition: all 0.3s;
-  width: 400px; 
- 
+  width: 400px;
 }
 /*casestudies end*/
 
@@ -515,9 +508,14 @@ option {
 }
 .banner {
   background: linear-gradient(90deg, #000096 0%, #000096 70%, #0578fb 100%);
+  padding: 32px 0;
 }
 .banner p {
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 24px;
 }
 
 .btn-contact-us {

@@ -9,3 +9,18 @@ window.addEventListener("scroll", function () {
     header.classList.remove("header-fixed");
   }
 });
+
+// Get all nav-links
+const navLinks = document.querySelectorAll(".nav-link");
+
+// Get the current page URL
+const currentPage = window.location.href;
+
+// Loop through nav-links and add active class if the link matches the current page URL
+navLinks.forEach((link) => {
+  if (link.href === currentPage) {
+    link.classList.add("active");
+  } else {
+    link.classList.remove("active");
+  }
+});
