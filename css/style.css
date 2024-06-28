@@ -10,6 +10,9 @@ body {
   flex-direction: column;
   position: static !important;
   font-family: "Poppins", sans-serif;
+  color: #898d8f;
+  font-weight: normal;
+  line-height: 1.5;
 }
 main {
   flex: 1;
@@ -482,7 +485,11 @@ option {
   line-height: 1;
   padding: 0.625rem 0.9375rem;
 }
-
+.form-response-output {
+  margin: 2em 0.5em 1em;
+  padding: 0.2em 1em;
+  border: 2px solid #ffb900;
+}
 /* Project Help CSS End*/
 
 /*About us start*/
@@ -541,12 +548,20 @@ option {
 .cards .card {
   border: none;
 }
-.links {
+.read_more_link {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+.learn_more_link {
   text-decoration: none;
-  color: black;
+  font-size: 1rem;
+  color: rgb(5, 0, 129);
+  font-weight: 600;
 }
 
-.links:hover img {
+.learn_more_link:hover img,
+.read_more_link:hover img {
   transform: translateX(10px);
   transition: transform 0.3s ease;
 }
