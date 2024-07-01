@@ -22,6 +22,7 @@ section {
 }
 h1 {
   font-size: 48px;
+  line-height: 1.25;
   font-weight: 600;
 }
 h2 {
@@ -348,7 +349,10 @@ a {
   background-color: white;
   padding: 50px 0 100px;
 }
-
+.casestudies_content {
+  width: 100%;
+  max-width: 560px;
+}
 .casestudies_tit {
   text-align: center;
   margin-bottom: 44px;
@@ -372,10 +376,7 @@ a {
 .casestudies_img {
   width: 300px;
 }
-/* .casestudies_button{
-  background-color: red;
 
-} */
 .casestudies_button {
   font-size: 12px;
   border-radius: 99px;
@@ -492,6 +493,55 @@ option {
 }
 /* Project Help CSS End*/
 
+/* Work CSS Start */
+.hero_work {
+  background: #f4fdff;
+  padding-top: 8.7rem;
+  padding-bottom: 3.75rem;
+}
+.hero_work .main-container {
+  max-width: 1000px;
+}
+.hero_work_heading,
+.hero_news_heading {
+  margin-bottom: 10px;
+  color: #000096;
+}
+.hero_work_text {
+  font-size: 20px;
+}
+.hero_work img {
+  height: 272px;
+}
+.filter_container {
+  width: 100%;
+  text-align: center;
+  margin-top: 6.25rem;
+}
+.filter_button {
+  padding: 9px 18px;
+  margin: 0 4px;
+  font-size: 13px;
+  border-radius: 99px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #050081;
+  color: #050081;
+  font-weight: 500;
+  outline: none;
+}
+.filter_button:hover {
+  color: #ffffff;
+  background-color: #050081;
+  border: 1px solid #050081;
+}
+.filter_button.active {
+  color: #ffffff;
+  background-color: #050081;
+  border: 1px solid #050081;
+}
+/* Work CSS End */
+
 /*About us start*/
 .hero-about {
   background: #fff9f2;
@@ -507,16 +557,19 @@ option {
   background-color: white;
   padding: 0px 0 100px;
 }
+
 .culture_title {
   color: #151d21;
   margin: 10px auto;
   line-height: 1.5rem;
   width: 80%;
 }
+
 .banner {
   background: linear-gradient(90deg, #000096 0%, #000096 70%, #0578fb 100%);
   padding: 32px 0;
 }
+
 .banner p {
   font-size: 18px;
   font-weight: 600;
@@ -536,6 +589,7 @@ option {
   text-decoration: none;
   border: 1px solid #ffffff;
 }
+
 .btn-contact-us:hover {
   background-color: #000096;
   color: #fff;
@@ -545,14 +599,17 @@ option {
   object-fit: cover;
   border-radius: 10px;
 }
+
 .cards .card {
   border: none;
 }
+
 .read_more_link {
   font-size: 16px;
   font-weight: 600;
   color: #000000;
 }
+
 .learn_more_link {
   text-decoration: none;
   font-size: 1rem;
@@ -582,6 +639,42 @@ option {
   text-align: center;
 }
 /*ABOUT END*/
+
+/* News CSS Start */
+.hero_news {
+  background-color: rgba(45, 212, 255, 0.1);
+  padding-top: 8.7rem;
+  padding-bottom: 3.75rem;
+}
+.contact_form {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+.contact_form input[type="email"] {
+  flex: 1 1 0px;
+}
+.contact_form input[type="submit"] {
+  height: 46px;
+  display: inline-block;
+  padding: 0.625rem 0.9375rem;
+  border: 1px solid transparent;
+  border-radius: 0;
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #151d21;
+  color: #fff;
+}
+.latest_blog .card,
+.trending_blog .card {
+  border-radius: 0;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e5d8c6;
+  padding-bottom: 10px;
+}
+/* News CSS End */
 
 /* Footer CSS Start */
 footer {
