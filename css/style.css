@@ -734,12 +734,12 @@ how-section1 p {
 }
 .office_text {
   top: 33%;
+  left: 15%;
   opacity: 0;
 }
 .office_images:hover {
   cursor: pointer;
   opacity: 0.7;
-  filter: 2;
 }
 .office_images:hover .office_text {
   opacity: 1;
