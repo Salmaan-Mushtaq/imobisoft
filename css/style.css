@@ -570,8 +570,134 @@ option {
 }
 /*ABOUT END*/
 
+
+/*contact us section*/
+
+.contact-us{
+  background: rgba(218,242,152,0.46);
+  padding-top: 140px;
+  padding-bottom: 150px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 110%;
+}
+
+.contact-us .about_heading{
+  color:#000096;
+}
+.contact-us .about_text{
+  color:#898D8F;
+}
+
+.our_offices img{
+ width:100%;
+ object-fit: cover;
+}
+
+.our_offices p{
+  color:#898D8F;
+}
+
+.our_offices img:hover{
+ 
+  opacity: 0.4; /* Reduce opacity on hover */
+  
+  
+filter:2.2;
+
+
+
+
+
+
+
+
+}
+ /* .our_offices .office_text{
+  
+  display:none;
+  
+ } 
+  */
+ 
+
+.office_text{
+  visibility: hidden;
+}
+.office_img:hover{
+ 
+}
+
+/* .office_text h3 {
+  color: blue !important;
+  font-size: 24px; 
+} */
+/* .office_text p {
+  color: green; 
+  font-size: 16px;
+} */
+
+
+
+
+
+ .office_text h3, p{
+  color:white;
+ }
+ .office_button{
+  
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #0898FF;
+    border: 1px solid #0898FF;
+    border-radius: 8px;
+    padding: 6px 30px;
+    text-align: center;
+ }
+ .office_button a{
+  color:white;
+ }
+/* .office_text:hover{
+  display:block;
+} */
+ /* .our_offices .office_img:hover.text {
+  display: block; /* Display text on hover */
+  /* Change text color to white on hover */
+
+ 
+ /* Backgro
+}
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: red;
+
+
+}
+
+.overlay .text h4 {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 4px;
+
+}
+.our_offices img:hover{
+opacity: 0.3;
+}
 /* Footer CSS Start */
-footer {
+
+
+
+.footer {
   margin-top: auto;
   background-color: #050081;
   color: #ffffff;
