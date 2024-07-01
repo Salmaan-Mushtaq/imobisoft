@@ -1,0 +1,73 @@
+/*
+Theme Name: ImobiSoft
+Text Domain: imobisoft	
+Version: 1.0
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: Hall And White theme designed and developed by Shakeel for Imobisoft
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Author: the WordPress team
+Author URI: https://shakeel-ur-rahman.com
+Theme URI: https://imobisoft.co.uk/hallandwatt
+License: All Rights Reserved With Imobisoft
+*/
+#dropdownwhereId-menu li:first-child {
+	display: none;
+}
+.page-template-umbraco .hero-default .grid-container {
+	max-width: 1000px;
+}
+.filters__element.our-work-fe{
+	padding: 12px 18px;
+	margin: 0 4px;
+}
+.clients__content.newones .clients__wrapper img {
+	width: 150px;
+}
+.clutchlogos {
+	margin-top: 30px;
+}
+.clutchlogos img {
+	width: 140px;
+}
+.clutchlogos .otherimagesize img {
+	width: 166px;
+}
+.clutchlogos .otherimagesize {
+	width: 166px;
+}
+@media only screen and (max-width: 600px) {
+ .clutchlogos img {
+	width: 100px;
+}
+.clutchlogos.clutchlogos2 {
+	margin-left: 20px;
+}
+.clutchlogos .otherimagesize img {
+	width: 118px;
+}
+.clutchlogos {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.hero-home__images {
+	height: 260px;
+}
+
+}
+
+.why-umbraco.cell {
+	padding: 40px 20px 80px 20px;
+	background: #050081;
+	border-radius: 14px;
+	margin-bottom: 50px;
+}
+.why-umbraco.cell h3 {
+	text-align: center;
+	margin-bottom: 40px;
+	color: #ffffff;
+}
+.why-umbraco.cell p{
+	color: #ffffff;
+}
