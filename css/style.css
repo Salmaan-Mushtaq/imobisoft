@@ -19,6 +19,7 @@ section {
 }
 h1 {
   font-size: 48px;
+  line-height: 1.25;
   font-weight: 600;
 }
 h2 {
@@ -345,11 +346,10 @@ a {
   background-color: white;
   padding: 50px 0 100px;
 }
-
-
-
-
-
+.casestudies_content {
+  width: 100%;
+  max-width: 560px;
+}
 .casestudies_tit {
   text-align: center;
   margin-bottom: 44px;
@@ -362,23 +362,18 @@ a {
 }
 
 .casestudies_title {
- 
-  color:black;
+  color: black;
   padding-top: 0;
-
 }
 .casestudies_subtitle {
   font-weight: 500;
   text-transform: uppercase;
   color: #898d8f;
 }
-.casestudies_img{
-width:300px;
+.casestudies_img {
+  width: 300px;
 }
-/* .casestudies_button{
-  background-color: red;
 
-} */
 .casestudies_button {
   font-size: 12px;
   border-radius: 99px;
@@ -395,8 +390,7 @@ width:300px;
   /* padding: 0 14px 20px; */
   cursor: pointer;
   transition: all 0.3s;
-  width: 400px; 
- 
+  width: 400px;
 }
 /*casestudies end*/
 
@@ -492,6 +486,55 @@ option {
 
 /* Project Help CSS End*/
 
+/* Work CSS Start */
+.hero_work {
+  background: #f4fdff;
+  padding-top: 8.7rem;
+  padding-bottom: 3.75rem;
+}
+.hero_work .main-container {
+  max-width: 1000px;
+}
+.hero_work_heading,
+.hero_news_heading {
+  margin-bottom: 10px;
+  color: #000096;
+}
+.hero_work_text {
+  font-size: 20px;
+}
+.hero_work img {
+  height: 272px;
+}
+.filter_container {
+  width: 100%;
+  text-align: center;
+  margin-top: 6.25rem;
+}
+.filter_button {
+  padding: 9px 18px;
+  margin: 0 4px;
+  font-size: 13px;
+  border-radius: 99px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #050081;
+  color: #050081;
+  font-weight: 500;
+  outline: none;
+}
+.filter_button:hover {
+  color: #ffffff;
+  background-color: #050081;
+  border: 1px solid #050081;
+}
+.filter_button.active {
+  color: #ffffff;
+  background-color: #050081;
+  border: 1px solid #050081;
+}
+/* Work CSS End */
+
 /*About us start*/
 .hero-about {
   background: #fff9f2;
@@ -507,15 +550,18 @@ option {
   background-color: white;
   padding: 0px 0 100px;
 }
+
 .culture_title {
   color: #151d21;
   margin: 10px auto;
   line-height: 1.5rem;
   width: 80%;
 }
+
 .banner {
   background: linear-gradient(90deg, #000096 0%, #000096 70%, #0578fb 100%);
 }
+
 .banner p {
   font-weight: 700;
 }
@@ -531,6 +577,7 @@ option {
   text-decoration: none;
   border: 1px solid #ffffff;
 }
+
 .btn-contact-us:hover {
   background-color: #000096;
   color: #fff;
@@ -540,10 +587,18 @@ option {
   object-fit: cover;
   border-radius: 10px;
 }
+
 .cards .card {
   border: none;
 }
-.links {
+
+.read_more_link {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.learn_more_link {
   text-decoration: none;
   color: black;
 }
@@ -561,8 +616,8 @@ option {
   color: black;
   font-weight: bold;
 }
-how-section1 p{
-  color:#151d21;
+how-section1 p {
+  color: #151d21;
 }
 
 .how-section1 .row {
@@ -573,11 +628,82 @@ how-section1 p{
 }
 /*ABOUT END*/
 
+/* News CSS Start */
+.hero_news {
+  background-color: rgba(45, 212, 255, 0.1);
+  padding-top: 8.7rem;
+  padding-bottom: 3.75rem;
+}
+.contact_form {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+.contact_form input[type="email"] {
+  flex: 1 1 0px;
+}
+.contact_form input[type="submit"] {
+  height: 46px;
+  display: inline-block;
+  padding: 0.625rem 0.9375rem;
+  border: 1px solid transparent;
+  border-radius: 0;
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #151d21;
+  color: #fff;
+}
+.latest_blog .card,
+.trending_blog .card {
+  border-radius: 0;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e5d8c6;
+  padding-bottom: 10px;
+}
+/* News CSS End */
+
+/* News CSS Start */
+.hero_news {
+  background-color: rgba(45, 212, 255, 0.1);
+  padding-top: 8.7rem;
+  padding-bottom: 3.75rem;
+}
+.contact_form {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+.contact_form input[type="email"] {
+  flex: 1 1 0px;
+}
+.contact_form input[type="submit"] {
+  height: 46px;
+  display: inline-block;
+  padding: 0.625rem 0.9375rem;
+  border: 1px solid transparent;
+  border-radius: 0;
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #151d21;
+  color: #fff;
+}
+.latest_blog .card,
+.trending_blog .card {
+  border-radius: 0;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e5d8c6;
+  padding-bottom: 10px;
+}
+/* News CSS End */
 
 /*contact us section*/
 
-.contact-us{
-  background: rgba(218,242,152,0.46);
+.contact-us {
+  background: rgba(218, 242, 152, 0.46);
   padding-top: 140px;
   padding-bottom: 150px;
 
@@ -586,50 +712,38 @@ how-section1 p{
   background-position: 50% 110%;
 }
 
-.contact-us .about_heading{
-  color:#000096;
+.contact-us .about_heading {
+  color: #000096;
 }
-.contact-us .about_text{
-  color:#898D8F;
-}
-
-.our_offices img{
- width:100%;
- object-fit: cover;
+.contact-us .about_text {
+  color: #898d8f;
 }
 
-.our_offices p{
-  color:#898D8F;
+.our_offices img {
+  width: 100%;
+  object-fit: cover;
 }
 
-.our_offices img:hover{
- 
+.our_offices p {
+  color: #898d8f;
+}
+
+.our_offices img:hover {
   opacity: 0.4; /* Reduce opacity on hover */
-  
-  
-filter:2.2;
 
-
-
-
-
-
-
-
+  filter: 2.2;
 }
- /* .our_offices .office_text{
+/* .our_offices .office_text{
   
   display:none;
   
  } 
   */
- 
 
-.office_text{
+.office_text {
   visibility: hidden;
 }
-.office_img:hover{
- 
+.office_img:hover {
 }
 
 /* .office_text h3 {
@@ -641,32 +755,26 @@ filter:2.2;
   font-size: 16px;
 } */
 
-
-
-
-
- .office_button{
-  
-    font-size: 14px;
-    color: #ffffff;
-    background-color: #0898FF;
-    border: 1px solid #0898FF;
-    border-radius: 8px;
-    padding: 6px 30px;
-    text-align: center;
- }
- .office_button a{
-  color:white;
- }
+.office_button {
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #0898ff;
+  border: 1px solid #0898ff;
+  border-radius: 8px;
+  padding: 6px 30px;
+  text-align: center;
+}
+.office_button a {
+  color: white;
+}
 /* .office_text:hover{
   display:block;
 } */
- /* .our_offices .office_img:hover.text {
+/* .our_offices .office_img:hover.text {
   display: block; /* Display text on hover */
-  /* Change text color to white on hover */
+/* Change text color to white on hover */
 
- 
- /* Backgro
+/* Backgro
 }
 }
 .overlay{
@@ -694,8 +802,6 @@ filter:2.2;
 opacity: 0.3;
 }
 /* Footer CSS Start */
-
-
 
 .footer {
   margin-top: auto;

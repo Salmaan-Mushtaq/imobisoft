@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Work|Imobisoft</title>
     <link
       rel="shortcut icon"
       href="/assets/faviconimobi.png"
@@ -176,8 +176,98 @@
       </nav>
     </header>
     <!-- Header Region End -->
+
     <!-- Main Section -->
     <main>
+      <!-- Hero Work Region Start -->
+      <section class="hero_work">
+        <!-- <div class="container py-4">  -->
+        <div
+          class="main-container d-flex flex-column flex-lg-row gap-4 align-items-center justify-content-center"
+        >
+          <div class="text-center text-lg-start px-2">
+            <h1 class="hero_work_heading">Our work speaks for itself</h1>
+            <p class="hero_work_text">
+              We design and develop high quality bespoke smart interactive
+              digital solutions for small and large organisations using stable
+              and robust technology stacks. Here are some of our projects which
+              we have delivered over the years.
+            </p>
+          </div>
+
+          <img
+            src="/assets/images/work_hero_right.webp"
+            alt="Work Header Image"
+            class="img-fluid"
+          />
+        </div>
+      </section>
+      <!-- Hero Work Region End -->
+      <!-- Case Studies Region Start -->
+      <section class="casestudies">
+        <div class="filter_container">
+          <button class="filter_button active">All Industries</button>
+          <button class="filter_button">Health & Pharma</button>
+          <button class="filter_button">Manufacturing and Engineering</button>
+          <button class="filter_button">Others</button>
+          <button class="filter_button">Technology</button>
+          <button class="filter_button">Umbraco Website Development</button>
+          <button class="filter_button">Utilities</button>
+        </div>
+        <h2 class="casestudies_tit pt-5">Case Studies</h2>
+        <div
+          class="main-container d-flex flex-column flex-lg-row gap-4 align-items-center justify-content-center"
+        >
+          <div class="casestudies_content main-container">
+            <p class="casestudies_subtitle">HEALTHCARE</p>
+            <a href="#">
+              <h2 class="casestudies_title">GSK Pharamacy Portal</h2></a
+            >
+            <p class="casestudies_text">
+              An intuitive UI, custom software with smart integrations that
+              underpin functionality and automations that drove customer
+              engagement.
+            </p>
+            <a class="casestudies_button" href="#" target="_self"> Design </a>
+            <a class="casestudies_button" href="#" target="_self">
+              Web Application Software
+            </a>
+            <div>
+              <a
+                class="learn_more_link"
+                href="https://www.imobisoft.co.uk/imobisoft-ltd-climbs-clutchs-game-changer-ranks/"
+                target="_self"
+                >Learn More
+                <img src="/assets/svg/rightarrow.svg" class="ps-2" />
+              </a>
+            </div>
+          </div>
+          <div class="casestudies_image">
+            <a href="#">
+              <img
+                src="/assets/images/GSK.webp"
+                class="hero_home_AI_ML position-relative img-fluid"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Case Studies Region End -->
+      <!-- Team Region Start -->
+      <section class="teams pt-0">
+        <p class="teams_title">TRUSTED BY SOME OF THE WORLD’S BEST TEAMS</p>
+        <article class="team_wrapper main-container">
+          <img src="/assets/images/childreninneed.png" class="team-image" />
+          <img src="/assets/images/nhs.png" class="team-image" />
+          <img src="/assets/images/coventryuniversity.png" class="team-image" />
+          <img src="/assets/images/sky.png" class="team-image" />
+          <img src="/assets/images/keel.png" class="team-image" />
+          <img src="/assets/images/northern.png" class="team-image" />
+          <img src="/assets/images/gsk.png" class="team-image" />
+          <img src="/assets/images/lulla.png" class="team-image" />
+        </article>
+      </section>
+      <!-- Team Region End -->
       <!-- Client Region Start -->
       <section class="clients">
         <h2 class="clients_title">Awards &amp; Accreditations</h2>
@@ -198,6 +288,7 @@
         </article>
       </section>
       <!-- Client Region End -->
+
       <!-- Project Help Region Start -->
       <section class="ask_for_project_help bg-white">
         <div class="main-container row gap-2 justify-content-center">
@@ -226,6 +317,9 @@
                 placeholder="Type Name"
                 required
               />
+              <small class="text-danger error_message"
+                >The field is required.</small
+              >
             </div>
             <div class="mb-3">
               <label for="email" class="form-label"
@@ -238,6 +332,9 @@
                 placeholder="Type Email"
                 required
               />
+              <small class="text-danger error_message"
+                >The field is required.</small
+              >
             </div>
             <div class="mb-3">
               <label for="phone" class="form-label">Phone Number</label>
@@ -259,6 +356,9 @@
                 placeholder="A Brief Description Here"
                 required
               />
+              <small class="text-danger error_message"
+                >The field is required.</small
+              >
             </div>
             <div class="mb-3">
               <label for="hear-about" class="form-label"
@@ -276,10 +376,16 @@
                 <option value="Friend or colleague">Friend or colleague</option>
                 <option value="Other">Other</option>
               </select>
+              <small class="text-danger error_message"
+                >The field is required.</small
+              >
             </div>
             <button type="submit" class="start-project-btn">
               Start a Project
             </button>
+            <div class="form-response-output" aria-hidden="true">
+              One or more fields have an error. Please check and try again.
+            </div>
           </form>
         </div>
       </section>
