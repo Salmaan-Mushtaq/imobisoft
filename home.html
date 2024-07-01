@@ -48,7 +48,9 @@
           >
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item p-2">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="home.html"
+                  >Home</a
+                >
               </li>
 
               <li class="nav-item dropdown p-2">
@@ -145,13 +147,13 @@
                 </ul>
               </li>
               <li class="nav-item p-2">
-                <a class="nav-link" href="#">Our Work</a>
+                <a class="nav-link" href="our-work.html">Our Work</a>
               </li>
               <li class="nav-item p-2">
                 <a class="nav-link" href="about.html">About Us</a>
               </li>
               <li class="nav-item p-2">
-                <a class="nav-link" href="#">News</a>
+                <a class="nav-link" href="news.html">News</a>
               </li>
               <li class="nav-item p-2">
                 <a class="nav-link" href="contact.html">Contact Us</a>
@@ -1452,11 +1454,12 @@
             </a>
             <div>
               <a
-                class="links fw-bold"
+                class="learn_more_link"
                 href="https://www.imobisoft.co.uk/imobisoft-ltd-climbs-clutchs-game-changer-ranks/"
                 target="_self"
-                >READ MORE <img src="/assets/svg/rrightarrow.svg"
-              /></a>
+                >Learn More
+                <img src="/assets/svg/rightarrow.svg" class="ps-2" />
+              </a>
             </div>
           </div>
           <div class="casestudies_image">
@@ -1514,7 +1517,7 @@
               href="https://www.imobisoft.co.uk/contact-us/"
               target="_self"
             >
-              Read Our Blog
+              Our Work
             </a>
           </div>
         </div>
@@ -1560,10 +1563,11 @@
                     round table event attended by key...
                   </p>
                   <a
-                    class="links fw-bold"
+                    class="read_more_link"
                     href="https://www.imobisoft.co.uk/imobisoft-ltd-climbs-clutchs-game-changer-ranks/"
                     target="_self"
-                    >READ MORE <img src="/assets/svg/rrightarrow.svg"
+                    >READ MORE
+                    <img src="/assets/svg/rightarrow-black.svg" class="ps-2"
                   /></a>
                 </div>
               </div>
@@ -1583,9 +1587,10 @@
                   </p>
                   <a
                     href="https://www.imobisoft.co.uk/imobisoft-ltd-climbs-clutchs-game-changer-ranks/"
-                    class="links fw-bold"
+                    class="read_more_link"
                     target="_self"
-                    >READ MORE <img src="/assets/svg/rrightarrow.svg"
+                    >READ MORE
+                    <img src="/assets/svg/rightarrow-black.svg" class="ps-2"
                   /></a>
                 </div>
               </div>
@@ -1602,8 +1607,9 @@
                   <a
                     href="https://www.imobisoft.co.uk/imobisoft-ltd-climbs-clutchs-game-changer-ranks/"
                     target="_self"
-                    class="links fw-bold"
-                    >READ MORE <img src="/assets/svg/rrightarrow.svg"
+                    class="read_more_link"
+                    >READ MORE
+                    <img src="/assets/svg/rightarrow-black.svg" class="ps-2"
                   /></a>
                 </div>
               </div>
@@ -1649,6 +1655,9 @@
                 placeholder="Type Name"
                 required
               />
+              <small class="text-danger error_message"
+                >The field is required.</small
+              >
             </div>
             <div class="mb-3">
               <label for="email" class="form-label"
@@ -1661,6 +1670,9 @@
                 placeholder="Type Email"
                 required
               />
+              <small class="text-danger error_message"
+                >The field is required.</small
+              >
             </div>
             <div class="mb-3">
               <label for="phone" class="form-label">Phone Number</label>
@@ -1675,13 +1687,16 @@
               <label for="help" class="form-label"
                 >How can we help? <span class="text-danger">*</span>
               </label>
-              <textarea
+              <input
+                type="text"
                 class="form-control form-control-lg"
                 id="help"
-                rows="1"
-                required
                 placeholder="A Brief Description Here"
-              ></textarea>
+                required
+              />
+              <small class="text-danger error_message"
+                >The field is required.</small
+              >
             </div>
             <div class="mb-3">
               <label for="hear-about" class="form-label"
@@ -1699,16 +1714,22 @@
                 <option value="Friend or colleague">Friend or colleague</option>
                 <option value="Other">Other</option>
               </select>
+              <small class="text-danger error_message"
+                >The field is required.</small
+              >
             </div>
             <button type="submit" class="start-project-btn">
               Start a Project
             </button>
+            <div class="form-response-output" aria-hidden="true">
+              One or more fields have an error. Please check and try again.
+            </div>
           </form>
         </div>
       </section>
       <!-- Project Help Region End -->
     </main>
-    <!-- Main Section -->
+    <!-- Main Section End-->
 
     <!-- Footer Region Starts-->
     <footer class="footer">
