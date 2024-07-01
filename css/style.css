@@ -10,9 +10,6 @@ body {
   flex-direction: column;
   position: static !important;
   font-family: "Poppins", sans-serif;
-  color: #898d8f;
-  font-weight: normal;
-  line-height: 1.5;
 }
 main {
   flex: 1;
@@ -349,6 +346,10 @@ a {
   padding: 50px 0 100px;
 }
 
+
+
+
+
 .casestudies_tit {
   text-align: center;
   margin-bottom: 44px;
@@ -361,16 +362,18 @@ a {
 }
 
 .casestudies_title {
-  color: black;
+ 
+  color:black;
   padding-top: 0;
+
 }
 .casestudies_subtitle {
   font-weight: 500;
   text-transform: uppercase;
   color: #898d8f;
 }
-.casestudies_img {
-  width: 300px;
+.casestudies_img{
+width:300px;
 }
 /* .casestudies_button{
   background-color: red;
@@ -392,7 +395,8 @@ a {
   /* padding: 0 14px 20px; */
   cursor: pointer;
   transition: all 0.3s;
-  width: 400px;
+  width: 400px; 
+ 
 }
 /*casestudies end*/
 
@@ -485,11 +489,7 @@ option {
   line-height: 1;
   padding: 0.625rem 0.9375rem;
 }
-.form-response-output {
-  margin: 2em 0.5em 1em;
-  padding: 0.2em 1em;
-  border: 2px solid #ffb900;
-}
+
 /* Project Help CSS End*/
 
 /*About us start*/
@@ -515,14 +515,9 @@ option {
 }
 .banner {
   background: linear-gradient(90deg, #000096 0%, #000096 70%, #0578fb 100%);
-  padding: 32px 0;
 }
 .banner p {
-  font-size: 18px;
-  font-weight: 600;
-  color: #ffffff;
-  text-align: center;
-  margin-bottom: 24px;
+  font-weight: 700;
 }
 
 .btn-contact-us {
@@ -548,20 +543,12 @@ option {
 .cards .card {
   border: none;
 }
-.read_more_link {
-  font-size: 16px;
-  font-weight: 600;
-  color: #000000;
-}
-.learn_more_link {
+.links {
   text-decoration: none;
-  font-size: 1rem;
-  color: rgb(5, 0, 129);
-  font-weight: 600;
+  color: black;
 }
 
-.learn_more_link:hover img,
-.read_more_link:hover img {
+.links:hover img {
   transform: translateX(10px);
   transition: transform 0.3s ease;
 }
@@ -573,6 +560,9 @@ option {
 .how-section1 h5 {
   color: black;
   font-weight: bold;
+}
+how-section1 p{
+  color:#151d21;
 }
 
 .how-section1 .row {
@@ -655,9 +645,6 @@ filter:2.2;
 
 
 
- .office_text h3, p{
-  color:white;
- }
  .office_button{
   
     font-size: 14px;
