@@ -729,22 +729,47 @@ how-section1 p {
   object-fit: cover;
 }
 
-.our_offices p {
-  color: #898d8f;
-}
-.office_text {
-  top: 33%;
-  left: 15%;
-  opacity: 0;
-}
-.office_images:hover {
+.office-image {
+  position: relative;
   cursor: pointer;
-  opacity: 0.7;
+  margin-bottom: 10px;
 }
-.office_images:hover .office_text {
+.office-image .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(8, 152, 255, 0.6);
+}
+.office-image .overlay .text {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+}
+.office-image .overlay .text h4 {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+.office-image .overlay .text p {
+  color: #fff;
+  font-size: 16px;
+}
+.office-image:hover .overlay {
   opacity: 1;
 }
-
 .office_button {
   font-size: 14px;
   color: #ffffff;
