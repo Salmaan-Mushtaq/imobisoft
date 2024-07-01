@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   position: static !important;
   font-family: "Poppins", sans-serif;
+  color: #898d8f;
 }
 main {
   flex: 1;
@@ -483,7 +484,11 @@ option {
   line-height: 1;
   padding: 0.625rem 0.9375rem;
 }
-
+.form-response-output {
+  margin: 2em 0.5em 1em;
+  padding: 0.2em 1em;
+  border: 2px solid #ffb900;
+}
 /* Project Help CSS End*/
 
 /* Work CSS Start */
@@ -727,33 +732,18 @@ how-section1 p {
 .our_offices p {
   color: #898d8f;
 }
-
-.our_offices img:hover {
-  opacity: 0.4; /* Reduce opacity on hover */
-
-  filter: 2.2;
-}
-/* .our_offices .office_text{
-  
-  display:none;
-  
- } 
-  */
-
 .office_text {
-  visibility: hidden;
+  top: 33%;
+  opacity: 0;
 }
-.office_img:hover {
+.office_images:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  filter: 2;
 }
-
-/* .office_text h3 {
-  color: blue !important;
-  font-size: 24px; 
-} */
-/* .office_text p {
-  color: green; 
-  font-size: 16px;
-} */
+.office_images:hover .office_text {
+  opacity: 1;
+}
 
 .office_button {
   font-size: 14px;

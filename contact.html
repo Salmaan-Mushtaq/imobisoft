@@ -48,7 +48,9 @@
           >
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item p-2">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="home.html"
+                  >Home</a
+                >
               </li>
 
               <li class="nav-item dropdown p-2">
@@ -145,13 +147,13 @@
                 </ul>
               </li>
               <li class="nav-item p-2">
-                <a class="nav-link" href="#">Our Work</a>
+                <a class="nav-link" href="our-work.html">Our Work</a>
               </li>
               <li class="nav-item p-2">
                 <a class="nav-link" href="about.html">About Us</a>
               </li>
               <li class="nav-item p-2">
-                <a class="nav-link" href="#">News</a>
+                <a class="nav-link" href="news.html">News</a>
               </li>
               <li class="nav-item p-2">
                 <a class="nav-link" href="contact.html">Contact Us</a>
@@ -224,6 +226,9 @@
               placeholder="Type Name"
               required
             />
+            <small class="text-danger error_message"
+              >The field is required.</small
+            >
           </div>
           <div class="mb-3">
             <label for="email" class="form-label"
@@ -236,6 +241,9 @@
               placeholder="Type Email"
               required
             />
+            <small class="text-danger error_message"
+              >The field is required.</small
+            >
           </div>
           <div class="mb-3">
             <label for="phone" class="form-label">Phone Number</label>
@@ -250,13 +258,16 @@
             <label for="help" class="form-label"
               >How can we help? <span class="text-danger">*</span>
             </label>
-            <textarea
+            <input
+              type="text"
               class="form-control form-control-lg"
               id="help"
-              rows="1"
-              required
               placeholder="A Brief Description Here"
-            ></textarea>
+              required
+            />
+            <small class="text-danger error_message"
+              >The field is required.</small
+            >
           </div>
           <div class="mb-3">
             <label for="hear-about" class="form-label"
@@ -270,30 +281,40 @@
               <option value="Friend or colleague">Friend or colleague</option>
               <option value="Other">Other</option>
             </select>
+            <small class="text-danger error_message"
+              >The field is required.</small
+            >
           </div>
           <button type="submit" class="start-project-btn">
             Start a Project
           </button>
+          <div class="form-response-output" aria-hidden="true">
+            One or more fields have an error. Please check and try again.
+          </div>
         </form>
       </div>
     </section>
+    <!-- Project Help Region End -->
 
     <section class="our_offices">
       <div class="main-container row gap-2 justify-content-center">
-        <h3 class="about_text text-center">Our Offices</h3>
+        <h3 class="about_text text-center text-black fw-medium fs-1">
+          Our Offices
+        </h3>
         <p>
           Imobisoft operates from both Coventry and London Offices.Reach out to
           us for software development services in your region.
         </p>
         <div class="row py-4">
-          <div class="col-12 col-lg-6 position-relative">
+          <div class="col-12 col-lg-6 position-relative office_images">
             <div
-              class="text text-center position-absolute top-50 start-50 translate-middle office_text"
+              class="text-white text-center position-absolute start-0 office_text"
             >
               <h3>London Office I</h3>
-              <p>Imobisoft Ltd, 1 - Dysart Street, London, EC2A 2BX</p>
+              <p class="text-white">
+                Imobisoft Ltd, 1 - Dysart Street, London, EC2A 2BX
+              </p>
             </div>
-
             <img
               src="./assets/images/cov_office.jpg"
               class="img-fluid office_img"
