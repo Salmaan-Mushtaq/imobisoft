@@ -565,6 +565,7 @@ option {
 
 .banner {
   background: linear-gradient(90deg, #000096 0%, #000096 70%, #0578fb 100%);
+  padding: 32px 0;
 }
 
 .banner p {
@@ -705,7 +706,7 @@ how-section1 p {
 }
 /* News CSS End */
 
-/*contact us section*/
+/*Contact Us CSS Start*/
 
 .contact-us {
   background: rgba(218, 242, 152, 0.46);
@@ -782,40 +783,8 @@ how-section1 p {
 .office_button a {
   color: white;
 }
-/* .office_text:hover{
-  display:block;
-} */
-/* .our_offices .office_img:hover.text {
-  display: block; /* Display text on hover */
-/* Change text color to white on hover */
+/*Contact Us CSS End*/
 
-/* Backgro
-}
-}
-.overlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: red;
-
-
-}
-
-.overlay .text h4 {
-  color: #fff;
-  font-size: 22px;
-  margin-bottom: 4px;
-
-}
-.our_offices img:hover{
-opacity: 0.3;
-}
 /* Footer CSS Start */
 
 .footer {
