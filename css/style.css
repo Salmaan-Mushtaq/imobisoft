@@ -158,6 +158,28 @@ a {
 .nav-sub-item {
   padding-top: 0.5rem;
 }
+/* dropdown for sm screens*/
+
+.submenu_items{
+
+
+
+
+background: transparent;
+    border: 0;
+
+}
+
+.submenu_items li a {
+  color:#050081;
+}
+
+.submenu_items .nav-item:hover {
+  color: red;
+}
+
+
+/**/
 
 .services:after {
   content: "^";
