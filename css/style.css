@@ -609,7 +609,8 @@ option {
   color: black;
 }
 
-.links:hover img {
+.read_more_link:hover img,
+.learn_more_link:hover img {
   transform: translateX(10px);
   transition: transform 0.3s ease;
 }
