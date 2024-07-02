@@ -15,11 +15,12 @@ body {
 main {
   flex: 1;
 }
-section {
+/* section {
   padding: 0 53px;
-}
+} */
 h1 {
   font-size: 48px;
+  color: #151d21;
   line-height: 1.25;
   font-weight: 600;
 }
@@ -839,4 +840,22 @@ footer a:hover {
     right: 0;
     bottom: -35px;
   }
+}
+/* SUB PAGES */
+.main-content {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+.single-post-wrapper,
+.single-post-wrapper-content {
+  margin: 0 auto;
+  width: 80%;
+}
+.single-post-wrapper-content a:not(.button) {
+  color: #0000ff;
+  text-decoration: underline;
+}
+.blog-img {
+  height: 230px;
+  width: 100%;
 }
