@@ -135,6 +135,7 @@ a {
 }
 .dropdown-menu-content:hover {
   background-color: #f5f8fa;
+  
 }
 .dropdown-menu-content a {
   color: rgba(21, 29, 33, 0.7);
@@ -159,6 +160,13 @@ a {
 .nav-sub-item {
   padding-top: 0.5rem;
 }
+/* dropdown for sm screens*/
+
+.submenu_items .nav-item:hover {
+  color: white;
+}
+
+/**/
 
 .services:after {
   content: "^";
@@ -833,6 +841,10 @@ footer a:hover {
   }
   .hero_home_container::before {
     display: none;
+  }
+  .navbar-nav{
+    background-color: #fff;
+    padding: 0;
   }
 }
 @media only screen and (max-width: 1360px) {
