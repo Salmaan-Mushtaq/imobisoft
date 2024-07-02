@@ -161,20 +161,6 @@ a {
 }
 /* dropdown for sm screens*/
 
-.submenu_items{
-
-
-
-
-background: transparent;
-    border: 0;
-
-}
-
-.submenu_items li a {
-  color:#050081;
-}
-
 .submenu_items .nav-item:hover {
   color: white;
 }
@@ -854,6 +840,10 @@ footer a:hover {
   }
   .hero_home_container::before {
     display: none;
+  }
+  .navbar-nav{
+    background-color: #fff;
+    padding: 0;
   }
 }
 @media only screen and (max-width: 1360px) {
