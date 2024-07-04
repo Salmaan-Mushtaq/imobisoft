@@ -842,7 +842,78 @@ how-section1 p {
   color: white;
 }
 /*Contact Us CSS End*/
+/*Bespoke business application start*/
+.bespoke{
+  background: #f2fcff;
+} 
+.bespoke .about_heading{
+  color:#000096;
+}
+.bespoke .about_text{
+  font-style: italic;
+}
 
+
+.bespoke_card{
+  background-color:#f2fcff;
+  border:0;
+}
+
+
+.offers_application{
+  background-color: #F8F8F8;
+}
+.offers_application_card{
+  border:0;
+  background-color:  #F8F8F8;
+}
+
+.bespoke_teams{
+  background: #F8F8F8;
+}
+.offers_application_card:hover svg{
+  
+   
+    transform: translateX(0%) translateY(-20%) scale(1.2);
+  }
+
+/*Bespoke business application end*/
+
+
+
+
+/*sdlc start*/
+
+
+.sdlc{
+  background-color: white;
+}
+.sdlc_container{
+  background-color: white;
+}
+
+span.step{
+  background: #2FB3D0;
+  border-radius: 50%;
+padding:15px;  
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  width: 55px;
+  height:55px;
+  text-align: center; 
+}
+.sdlcc_card {
+  width: 100%;
+  max-width: 370px;
+  text-align: center;
+  border-radius: 12px;
+  margin: 0 6px 25px;
+  padding: 32px 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+/*
 /* Footer CSS Start */
 
 .footer {
