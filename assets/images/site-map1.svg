@@ -1,0 +1,13 @@
+<svg id="site-map_1" data-name="site-map 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="site-map_1_Background_Mask_" data-name="site-map 1 (Background/Mask)" width="40" height="40" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="site-map_1_Background_Mask_2" data-name="site-map 1 (Background/Mask)" width="40" height="40" fill="none"/>
+  <g id="site-map_1-2" data-name="site-map 1" clip-path="url(#clip-path)">
+    <path id="Vector" d="M38.828,40H29.375A1.173,1.173,0,0,1,28.2,38.828V29.375A1.173,1.173,0,0,1,29.375,28.2H32.89V23.515H21.172V28.2h3.516a1.173,1.173,0,0,1,1.172,1.172v9.453A1.173,1.173,0,0,1,24.688,40H15.313a1.173,1.173,0,0,1-1.172-1.172V29.375A1.173,1.173,0,0,1,15.313,28.2h3.515V23.515H7.109V28.2h3.516A1.173,1.173,0,0,1,11.8,29.375v9.453A1.173,1.173,0,0,1,10.625,40H1.172A1.173,1.173,0,0,1,0,38.828V29.375A1.173,1.173,0,0,1,1.172,28.2H4.765v-5.86a1.173,1.173,0,0,1,1.172-1.172H18.828V16.484h-8.2a1.174,1.174,0,0,1-1.173-1.172V1.172A1.174,1.174,0,0,1,10.625,0h18.75a1.173,1.173,0,0,1,1.172,1.172V15.313a1.173,1.173,0,0,1-1.172,1.172h-8.2v4.687H34.062a1.173,1.173,0,0,1,1.172,1.172V28.2h3.594A1.173,1.173,0,0,1,40,29.375v9.453A1.173,1.173,0,0,1,38.828,40Zm-8.281-9.453v7.109h7.109V30.547Zm-14.062,0v7.109h7.031V30.547Zm-14.141,0v7.109H9.453V30.547ZM11.8,2.344v11.8H28.2V2.344Z" fill="#2fb3d0"/>
+    <path id="Vector-2" data-name="Vector" d="M8.2,2.344A1.172,1.172,0,0,0,8.2,0H1.172a1.172,1.172,0,0,0,0,2.344Z" transform="translate(14.141 4.766)" fill="#2fb3d0"/>
+    <path id="Vector-3" data-name="Vector" d="M10.547,0H1.172a1.172,1.172,0,0,0,0,2.344h9.375a1.172,1.172,0,0,0,0-2.344Z" transform="translate(14.141 9.453)" fill="#2fb3d0"/>
+  </g>
+</svg>

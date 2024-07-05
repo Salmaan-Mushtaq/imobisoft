@@ -1,0 +1,18 @@
+<svg id="web-development_1" data-name="web-development 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="web-development_1_Background_Mask_" data-name="web-development 1 (Background/Mask)" width="40" height="40" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="web-development_1_Background_Mask_2" data-name="web-development 1 (Background/Mask)" width="40" height="40" fill="none"/>
+  <g id="web-development_1-2" data-name="web-development 1" clip-path="url(#clip-path)">
+    <path id="Vector" d="M36.484,39.844H3.515A3.519,3.519,0,0,1,0,36.329V3.515A3.519,3.519,0,0,1,3.515,0H36.484A3.519,3.519,0,0,1,40,3.515V36.329A3.519,3.519,0,0,1,36.484,39.844ZM2.344,11.719v24.61A1.173,1.173,0,0,0,3.515,37.5H36.484a1.173,1.173,0,0,0,1.172-1.172V11.719ZM3.515,2.344A1.173,1.173,0,0,0,2.344,3.515v5.86H37.656V3.515a1.173,1.173,0,0,0-1.172-1.172Z" transform="translate(0 0.078)" fill="#2fb3d0"/>
+    <path id="Vector-2" data-name="Vector" d="M7.126.711.1,17.117a1.172,1.172,0,0,0,2.154.923L9.281,1.634A1.172,1.172,0,0,0,8.665.1h0A1.172,1.172,0,0,0,7.126.711Z" transform="translate(15.312 15.312)" fill="#2fb3d0"/>
+    <path id="Vector-3" data-name="Vector" d="M6.3.257.44,4.944a1.172,1.172,0,0,0,0,1.83L6.3,11.462a1.172,1.172,0,1,0,1.464-1.83L3.048,5.859,7.763,2.087A1.172,1.172,0,0,0,7.946.44h0A1.172,1.172,0,0,0,6.3.257Z" transform="translate(5.938 18.828)" fill="#2fb3d0"/>
+    <path id="Vector-4" data-name="Vector" d="M1.9.257A1.172,1.172,0,1,0,.44,2.087L5.155,5.859.44,9.632A1.172,1.172,0,1,0,1.9,11.462L7.763,6.774a1.172,1.172,0,0,0,0-1.83Z" transform="translate(25.86 18.828)" fill="#2fb3d0"/>
+    <path id="Vector-5" data-name="Vector" d="M1.172,2.344A1.172,1.172,0,1,1,2.344,1.172,1.172,1.172,0,0,1,1.172,2.344Z" transform="translate(4.766 4.766)" fill="#2fb3d0"/>
+    <path id="Vector-6" data-name="Vector" d="M1.172,2.344A1.172,1.172,0,1,1,2.344,1.172,1.172,1.172,0,0,1,1.172,2.344Z" transform="translate(9.453 4.766)" fill="#2fb3d0"/>
+    <path id="Vector-7" data-name="Vector" d="M1.172,2.344A1.172,1.172,0,1,1,2.344,1.172,1.172,1.172,0,0,1,1.172,2.344Z" transform="translate(14.141 4.766)" fill="#2fb3d0"/>
+    <path id="Vector-8" data-name="Vector" d="M8.2,2.344A1.172,1.172,0,0,0,8.2,0H1.172a1.172,1.172,0,0,0,0,2.344Z" transform="translate(25.859 4.766)" fill="#2fb3d0"/>
+  </g>
+</svg>
