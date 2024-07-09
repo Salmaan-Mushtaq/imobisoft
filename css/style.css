@@ -844,14 +844,19 @@ how-section1 p {
 }
 /*Contact Us CSS End*/
 /*Bespoke business application start*/
-.bespoke{
+.bespoke {
   background: #f2fcff;
-} 
-.bespoke .about_heading{
-  color:#000096;
 }
-.bespoke .about_text{
+.bespoke .about_heading {
+  color: #000096;
+}
+.bespoke .about_text {
   font-style: italic;
+}
+
+.bespoke_card {
+  background-color: #f2fcff;
+  border: 0;
 }
 .ai_card {
   width: 100%;
@@ -864,7 +869,6 @@ how-section1 p {
   cursor: pointer;
 }
 .ai_card:hover {
- 
   transform: scale(1.03);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -876,59 +880,51 @@ how-section1 p {
 .ai_card:hover img {
   transform: translate(-130%, -20%) scale(1.2);
 }
-.bespoke_card{
-  background-color:#f2fcff;
-  border:0;
+.bespoke_card {
+  background-color: #f2fcff;
+  border: 0;
 }
-.ai .bespoke_img{
-  height:40px;
-  width:40px;
- 
-}
-
-
-.offers_application{
-  background-color: #F8F8F8;
-}
-.offers_application_card{
-  border:0;
-  background-color:  #F8F8F8;
+.ai .bespoke_img {
+  height: 40px;
+  width: 40px;
 }
 
-.bespoke_teams{
-  background: #F8F8F8;
+.offers_application {
+  background-color: #f8f8f8;
 }
-.offers_application_card:hover img{
-  
-   
-    transform: translateX(0%) translateY(-20%) scale(1.2);
-  }
+.offers_application_card {
+  border: 0;
+  background-color: #f8f8f8;
+}
+
+.bespoke_teams {
+  background: #f8f8f8;
+}
+.offers_application_card:hover svg {
+  transform: translateX(0%) translateY(-20%) scale(1.2);
+}
 
 /*Bespoke business application end*/
 
-
-
-
 /*sdlc start*/
 
-
-.sdlc{
+.sdlc {
   background-color: white;
 }
-.sdlc_container{
+.sdlc_container {
   background-color: white;
 }
 
-span.step{
-  background: #2FB3D0;
+span.step {
+  background: #2fb3d0;
   border-radius: 50%;
-padding:15px;  
+  padding: 15px;
   color: #ffffff;
   display: inline-block;
   font-weight: bold;
   width: 55px;
-  height:55px;
-  text-align: center; 
+  height: 55px;
+  text-align: center;
 }
 .sdlcc_card {
   width: 100%;
@@ -998,7 +994,7 @@ footer a:hover {
   height: 230px;
   width: 100%;
 }
-/* Cloud Computing */
+/* Cloud Computing CSS Start*/
 .hero_cloud_computing {
   background: #fff2f2;
   padding-top: 8.7rem;
@@ -1059,33 +1055,18 @@ footer a:hover {
   letter-spacing: 0px;
   color: #444;
 }
-
-
-
-
-.three-column-images
-{
-  background:white;
-}
-
-.three-column-images .row
-{
-  text-align:center;
-}
-.three-column-images img
-{
-  margin-bottom:10px;
-  margin-top:20px;
-}
-
-
 /* Media Queries */
 @media (max-width: 992px) {
   .hero_home_content_images {
     align-items: center;
   }
-  .hero_home_container::before {
+  .hero_home_container::before,
+  .app_dev_services_img::after,
+  .app_dev_services_img::before {
     display: none;
+  }
+  .app_dev_services_img {
+    padding-bottom: 30px;
   }
   .navbar-nav {
     background-color: #fff;
