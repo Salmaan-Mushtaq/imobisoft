@@ -405,7 +405,8 @@ a {
   /* padding: 0 14px 20px; */
   cursor: pointer;
   transition: all 0.3s;
-  width: 400px;
+  width: 100%;
+  height:auto;
 }
 /*casestudies end*/
 
@@ -1058,6 +1059,26 @@ footer a:hover {
   letter-spacing: 0px;
   color: #444;
 }
+
+
+
+
+.three-column-images
+{
+  background:white;
+}
+
+.three-column-images .row
+{
+  text-align:center;
+}
+.three-column-images img
+{
+  margin-bottom:10px;
+  margin-top:20px;
+}
+
+
 /* Media Queries */
 @media (max-width: 992px) {
   .hero_home_content_images {
@@ -1069,6 +1090,14 @@ footer a:hover {
   .navbar-nav {
     background-color: #fff;
     padding: 0;
+  }
+  
+}
+@media (max-width: 768px) {
+  .pharmacy {
+  
+    flex-direction: column-reverse; /*
+    Reverse the order on smaller screens */
   }
 }
 @media (max-width: 576px) {
